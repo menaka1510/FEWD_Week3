@@ -44,15 +44,15 @@ Developer @GA in SG
 /******************************************
 /* BASE STYLES
 /*******************************************/
-html{
+html {
   font-size: 0.625em;
 }
 
 body {
-     color: #000;
      font-size: 1.5em;
      line-height: 1.4;
      font-family: 'Open Sans', sans-serif;
+     background-color: #efefee;
 }
 
 
@@ -62,8 +62,8 @@ body {
 
 /* Center the container */
 .container {
-  width: 1200px;
   height: 1700px;
+  width: 1200px;
   margin: auto;
   background-color: #efefee;
 }
@@ -72,14 +72,13 @@ body {
 header {
   background-color: #043049;
   height: 120px;
-  width: 1200px;
+  width: 100%;
   margin: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding-left: 120px;
-  padding-right: 100px;
+  padding: 0px 235px;
 }
 
 .navigation a {
@@ -221,7 +220,7 @@ aside {
   padding: 10px 60px;
 }
 .signup {
-  width: 1200px;
+  width: 100%;
   height:120px;
   margin: 0 auto;
   padding-top: 42px;
@@ -233,7 +232,7 @@ aside {
 /*Footer*/
 
 footer {
-width: 1200px;
+width: 100%;
 height: 300px;
 margin: 0 auto;
 display:block;
